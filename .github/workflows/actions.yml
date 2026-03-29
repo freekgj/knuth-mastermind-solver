@@ -24,4 +24,4 @@ jobs:
           if [  -f requirements.txt  ]; then pip Install -r requirements.txt; fi
       
       - name: Run script
-        run: python mastermind.py
+        run: python main.py
